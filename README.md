@@ -18,3 +18,18 @@ Libraries: numpy, scipy, pandas
 9.3 Implement function kittens(data, labels) which creates a dataframe from dictionary "data" with indexes from the list "labels" and returns dataframe with data about cats with age < 3
 9.4 Implement function sorted_df(data, labels) which creates a dataframe from dictionary "data" with indexes from the list "labels" which returns dataframe sorted firstly by age in a decreasing order, secondly, for the number of weight in ascending order
 10. Markov Chain
+
+# Python Lab.ipynb
+Python and algorithms
+Сomplete this part of test without using any libs (your code must not contain keyword 'import')
+1. Implement function str_to_dict(some_str) which returnes dictionary, where keys are string characters, and values are their quantity in the string
+2. Implement function sec_smallest(numbers) which returns second smallest item in the list, without using the built-in sorting methods (your code mustn't contain such words as 'sort', 'sorted')
+3. Implement function prime_nums(n) that returns list of numbers which are simple and < n
+4. Implement function max_sum_index(tuples), which returnes index of tuple in the list with maximum sum of elements
+5. Implement function gcd(x, y), which returns the greatest common divisor of n and m
+6. Implement recursive sum of the list
+7. Implement decorator which returns function signature and it's return value
+8. Implement class Conv, that contains method to_roman(self, n), which converts decimal numbers to Roman numerals
+9. Implement class CombinationsList, that contains method get_combinations(self, my_list), which returns all combinations of elements of given list, including empty element and in order, law of which can be discrovered from the expected output
+10. Create base class Rocket and it's subclass Shuttle. The parent class contains methods getMission(), addMission() and getName(). The subclass Shuttle contains method getDescription(). Notice that we have not defined getName(), getMission(), addMission() in the Shuttle class but we are still able to access them, because the class Shuttle inherits them from the Rocket class. Use super() method to have ability to call those methods of the base class
+
